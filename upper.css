@@ -27,7 +27,7 @@
 
 .info-block {
     width: 350px;
-    background-image: url('/img/ktylhy.jpeg');
+    background-image: url('ktylhy.jpeg');
     background-size: cover;
     background-position: center;
     color: #1e2b2f;
