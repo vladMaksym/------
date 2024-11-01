@@ -1,0 +1,78 @@
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #1F2833;
+}
+
+.middle-section__additional-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 500px;
+    background-image: url('/img/ktylhy.jpg');
+    color: #1e2b2f;
+    padding: 1rem;
+    border-radius: 16px;
+    margin-right: 1rem;
+}
+
+.middle-section__additional-info__on-image-text {
+    color: #0B0C10;
+    background-color: #ffffff3f;
+    border-radius: 6px;
+    padding: 1ex;
+    padding-top: 6px;
+}
+
+.sidebar {
+    background-color: #0B0C10;
+    padding: 1rem;
+    border-radius: 16px;
+    flex: 1;
+}
+
+.sidebar__menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.sidebar__button {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-size: 18px;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 45%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #0B0C10;
+    border: 4px solid #1F2833;
+    color: #45A29E;
+    text-align: center;
+}
+
+.sidebar__button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #45A29E;
+    transition: width 0.3s ease;
+}
+
+.sidebar__button:hover::after {
+    width: 100%;
+}
+
+.sidebar__button:hover {
+    color: #1F2833;
+}
+
+.sidebar__button span {
+    position: relative;
+    z-index: 1;
+}

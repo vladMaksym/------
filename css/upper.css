@@ -1,0 +1,43 @@
+.upper-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #0B0C10;
+    flex: 1;
+}
+
+.main-content {
+    flex: 1;
+    padding: 1rem;
+    padding-bottom: 0;
+    margin-right: 1rem;
+}
+
+.main-content-footer {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #1F2833;
+    border-radius: 8px;
+}
+
+.main-content-footer p {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.info-block {
+    width: 350px;
+    background-image: url('/img/ktylhy.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #1e2b2f;
+    padding: 1rem;
+    border-radius: 16px;
+}
+
+.info-block__on-image-text {
+    color: #0B0C10;
+    background-color: #ffffff3f;
+    border-radius: 6px;
+    padding-right: 1ex;
+}
